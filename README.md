@@ -5,3 +5,4 @@
 * execute:
 ``` bash
 systemctl status zabbix-java-gateway.service
+systemctl enable zabbix-java-gateway.service
