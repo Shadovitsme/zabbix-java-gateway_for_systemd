@@ -1,2 +1,7 @@
-# zabbix-java-gateway_for_systemd
-Systemd service for starts zabbix-java-gateway
+# zabbix jmx service for systemd
+
+### how to start
+* Copy this service file into /etc/systemd/system/
+* execute:
+``` bash
+systemctl status zabbix-java-gateway.service
